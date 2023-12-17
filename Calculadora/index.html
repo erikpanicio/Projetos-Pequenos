@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <input type="text" class="results">
+        <div class="keys">
+            <button class="delAll purple">AC</button>
+            <button><img src="images/del.png" alt=""></button>
+            <button class="purple" onclick="AddCharacters('/')">/</button>
+
+            <button onclick="AddCharacters('7')">7</button>
+            <button onclick="AddCharacters('8')">8</button>
+            <button onclick="AddCharacters('9')">9</button>
+            <button class="purple" onclick="AddCharacters('*')">*</button>
+
+            <button onclick="AddCharacters('4')">4</button>
+            <button onclick="AddCharacters('5')">5</button>
+            <button onclick="AddCharacters('6')">6</button>
+            <button class="purple" onclick="AddCharacters('-')">-</button>
+
+            <button onclick="AddCharacters('1')">1</button>
+            <button onclick="AddCharacters('2')">2</button>
+            <button onclick="AddCharacters('3')">3</button>
+            <button class="purple" onclick="AddCharacters('+')">+</button>
+
+            <button onclick="AddCharacters('0')">0</button>
+            <button onclick="AddCharacters('.')">.</button>
+            <button class="equal purple" onclick="Calculate()">&equals;</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

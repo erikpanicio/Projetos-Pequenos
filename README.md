@@ -11,4 +11,4 @@ Este é um projeto que imita o processo de adição de um cartão em um site, te
 - JavaScript
 
 ## Para acessar o projeto:
-https://erikpanicio.github.io/Card-Project/Card-Project/index.html
+https://erikpanicio.github.io/Projetos-Pequenos/Card-Project/index.html
